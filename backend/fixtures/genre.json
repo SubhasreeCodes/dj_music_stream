@@ -1,0 +1,16 @@
+[
+    {
+        "model": "backend.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Rock"
+        }
+    },
+    {
+        "model": "backend.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Pop"
+        }
+    }
+]
