@@ -14,6 +14,7 @@ class Genre(models.Model):
 class Brand(models.Model):
     name = models.CharField(max_length=100, unique=True)  # Name of the music streaming service
     description = models.TextField(null=True, blank=True)  # A description about the brand
+    image_path = models.ImageField(upload_to="brand", default="no_image_available.png")
 
     def __str__(self):
         return self.name
